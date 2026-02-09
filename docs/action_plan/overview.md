@@ -16,7 +16,15 @@ Classify support tickets by urgency/tone
 
 
 Key Differences from Churn Prediction
-AspectChurn (Just Finished)Sentiment (Now)Data typeTabular (CSV rows)Text (sentences)PreprocessingEncode categories, scale numbersTokenization, embeddingsModelLogistic Regression, XGBoostTransformers (BERT, RoBERTa)ChallengeClass imbalanceUnderstanding context/sarcasmOutputBinary (churn/stay)Multi-class (pos/neg/neutral)
+AspectChurn (Just Finished)
+Sentiment (Now)Data
+typeTabular (CSV rows)
+Text (sentences)
+PreprocessingEncode categories, scale numbersTokenization, embeddings
+Model Logistic Regression, XGBoostTransformers (BERT, RoBERTa)
+Challenge Class imbalance, Understanding context/sarcasm
+Output Binary (churn/stay)
+Multi-class (pos/neg/neutral)
 
 What You'll Learn
 
